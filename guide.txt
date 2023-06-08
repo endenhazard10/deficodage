@@ -1,0 +1,8 @@
+Le projet est réalisé en deux étapes.
+D'une part, on a le coté frontend avec vue js et le coté backend avec laravel (api rest).
+Après avoir téléchargé les 2 projets, dans le projet laravel il faut renommer le fichier
+.env.example en .env vue que le fichier .env qui était dans le projet, est ignoré par github.
+La deuxième possibilité est de recrer un fichier.env et copier le contenu du fichier .env.example.
+Après cela, on démarre le projet laravel avec la commande php artisan serve sur le port 8000 (http://127.0.0.1:8000). C'est le port par défaut. 
+On exécute les migrations avec la commande php artisan migrate après avoir fait la configuration de la base de données dans le fichier .env créé ci-dessus.
+On peut maintenant démarrer le projet vue js avec npm run serve.
