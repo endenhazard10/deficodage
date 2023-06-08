@@ -5,4 +5,4 @@ Après avoir téléchargé les 2 projets, dans le projet laravel il faut renomme
 La deuxième possibilité est de recrer un fichier.env et copier le contenu du fichier .env.example.
 Après cela, on démarre le projet laravel avec la commande php artisan serve sur le port 8000 (http://127.0.0.1:8000). C'est le port par défaut. 
 On exécute les migrations avec la commande php artisan migrate après avoir fait la configuration de la base de données dans le fichier .env créé ci-dessus.
-On peut maintenant démarrer le projet vue js avec npm run serve.
+On peut exetuter la commande npm install maintenant avant de démarrer le projet vue js avec npm run serve.
